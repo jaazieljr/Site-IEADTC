@@ -1,0 +1,63 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500;800&display=swap');
+.trabalhos {
+  background-image: linear-gradient(#2e0101, #3f0101);
+  width: 100%;
+  height: auto;
+  padding: 50px;
+}
+.trabalhos .prim {
+  border-radius: 5px;
+  color: #002542;
+  background: AliceBlue;
+  margin: auto;
+  padding: 10px;
+ 
+}
+
+
+
+.trabalhos div div {
+    border-bottom: 1px solid black;
+    font-family: 'Open Sans', sans-serif;
+    margin:30px 100px;
+    transition-duration: .3s;
+   
+  }
+.trabalhos div h2 {
+    font-weight: 800;
+    text-transform: uppercase;
+    
+}
+.trabalhos div div:hover {
+    transform: scale(1.05);
+    color: rgb(1, 1, 61);
+    }
+
+    .trabalhos div div:hover span{
+        color: #3f0101;
+    }
+
+
+.trabalhos div p{
+    font-weight: 500;
+}
+.trabalhos h1{
+  font-weight: 800;
+  color: #fff;
+  background-color: #2e0101;
+  width: fit-content;
+  padding: 5px 15px 5px 15px;
+  border-radius: 10px;
+  margin: auto;
+  margin-bottom: 100px;
+  margin-top: 30px;
+  transition: .3s;
+  
+}
+
+.trabalhos h1:hover{
+  transform: scale(1.05);
+  cursor: default;
+}
+

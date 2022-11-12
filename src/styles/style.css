@@ -16,12 +16,7 @@
 
 }
 
-.bg-section {
 
- 
-    background-image: linear-gradient(#2e0101, #3f0101 );
-
-}
 
 #bg-footer {
     background-color: #000b14;
@@ -91,3 +86,50 @@ span {
     border: 0 none;
 
  }
+.logo{
+    transition: .3s;
+}
+.logo:hover{
+    transform: scale(1.05);
+}
+
+.filt{
+transition: .3s;
+}
+.filt:hover{
+transform: scale(1.05);
+}
+.calendar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin:60px ;
+    border: 1px solid #002542;
+    border-radius: 5px;
+    padding: 20px;
+}
+.calendar div{
+    color:#002542;
+    font-family: 'Open Sans', sans-serif;
+}
+.calendar div h2{
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.calendar div p{
+    font-weight: 500;
+}
+
+
+.calendar iframe{
+border-radius: 5px;
+padding: 10px;
+background-color: white;
+transition: .3s;
+
+}
+.calendar iframe:hover{
+    transform: scale(1.01);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
