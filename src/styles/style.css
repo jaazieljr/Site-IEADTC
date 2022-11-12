@@ -1,3 +1,6 @@
+*{
+  cursor: default;
+}
 
 #bg-body {
     background-color: AliceBlue;
@@ -63,8 +66,9 @@ span {
 }
 
 .bg-card-hist2 {
-    background-image: url(/main/img/banner1.png);
+    background-image: url(/src/assets/fundo-biblia.png);
     background-position: center center;
+    background-size: 900px;
     text-shadow: black 0.1em 0.1em 0.2em;
 }
 
@@ -88,6 +92,7 @@ span {
  }
 .logo{
     transition: .3s;
+    cursor: pointer;
 }
 .logo:hover{
     transform: scale(1.05);
@@ -133,3 +138,14 @@ transition: .3s;
     transform: scale(1.01);
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
+main h1.titu{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 100px;
+    border-bottom: 1px solid #808080;
+    width: 1000px;
+    margin: auto;
+    text-transform: uppercase;
+    color: #002542;
+    padding:30px;
+  }
