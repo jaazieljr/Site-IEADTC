@@ -70,7 +70,7 @@
         </div>
         <div class="col-md-7 col-lg-8">
           <h2 class="mb-4"><span>Fale Conosco!</span></h4>
-            <form class="needs-validation" novalidate>
+            <form class="needs-validation" action="enviar.php" >
               <div class="row g-3">
                 <div class="col-sm-6">
                   <label for="firstName" class="form-label">Nome <span
@@ -91,11 +91,18 @@
                 </div>
 
 
-                <div class="col-12">
+                <div class="col-sm-6">
                   <label for="email" class="form-label">Email <span class="text-muted">(Obrigatório)</span></label>
                   <input type="email" class="form-control" id="email" placeholder="nome@exemplo.com">
                   <div class="invalid-feedback">
                     Please enter a valid email address for shipping updates.
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <label for="tel" class="form-label">Celular <span class="text-muted">(Obrigatório)</span></label>
+                  <input type="tel" class="form-control" id="telefone" placeholder="(xx) 9xxxx-xxxx">
+                  <div class="invalid-feedback">
+                    Please enter a valid telefone number for shipping updates.
                   </div>
                 </div>
                 <hr class="my-5 mb-2">
@@ -109,7 +116,7 @@
                 </div>
                 <div class="col-12">
                   <label for="address" class="form-label">Mensagem</label>
-                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="9" placeholder="Escreva sua mensagem" required></textarea>
+                  <textarea class="form-control" id="mensagem" rows="9" placeholder="Escreva sua mensagem" required></textarea>
                   <div class="invalid-feedback">
                     Please enter your shipping address.
                   </div>
