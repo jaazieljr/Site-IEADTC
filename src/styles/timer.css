@@ -8,7 +8,7 @@
 }
 
 .alinhamento{
-   
+    font-family: 'Raleway', sans-serif;
     width: fit-content;
     margin: auto;
     display: flex;
@@ -28,7 +28,6 @@
     padding: 20px 40px;
     transition: .3s;
     gap: 100px;
-    font-family: 'Raleway', sans-serif;
     
     
 }
@@ -42,7 +41,7 @@
     font-size: 90px;
     letter-spacing: 2px;
     font-weight: 400;
-    color:#676F54;
+    color:#6D1A36;
     
 }
 .alinhamento-numeros:hover{
@@ -63,16 +62,16 @@
 }
 
 .not{
- display: flex;
- gap: 20px;
+    display: flex;
+    gap: 20px;
 }
 .not input{
     border-radius: 20px;
     background-color: transparent;
-   border: 1px solid #676F54;
-   padding: 5px 15px;
-   width: 300px;
-   color: #676F54;
+    border: 1px solid #6D1A36;
+    padding: 5px 15px;
+    width: 300px;
+    color: #6D1A36;
 }
 
 .not input:hover{
@@ -82,29 +81,28 @@
 input:focus {
     box-shadow: 0 0 0 0;
     outline: 0;
-    background-color: #676F54;
+    background-color: #6D1A36;
     color: #fff;
-    
-
 }
 input::placeholder{
-color: #676F54;
+color: #6D1A36;
 }
 input:focus::placeholder{
     color: #fff;
 }
 .not button{
     border-radius: 20px;
-    border: 1px solid #676F54;
+    border: 1px solid #6D1A36;
     background-color: transparent;
-    color:#676F54;
+    color:#6D1A36;
     padding: 5px 14px;
     transition: .3s;
 }
 .not button:hover{
-    background-color: #676F54;
+    background-color: #6D1A36;
     color:#fff;
     transform: scale(1.05);
-    
+}
+.title-timer{
     
 }
