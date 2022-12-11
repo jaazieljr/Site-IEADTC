@@ -20,7 +20,7 @@
 }
 
 .alinhamento-numeros{
-    border: 1px solid #faebd7;
+    border: 1px solid #676F54;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -42,11 +42,11 @@
     font-size: 90px;
     letter-spacing: 2px;
     font-weight: 400;
-    color:#faebd7;
+    color:#676F54;
     
 }
 .alinhamento-numeros:hover{
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 
 .timer-title{
@@ -59,7 +59,7 @@
 .alinhamento-numeros span{
    font-size:small;
    font-weight:700;
-   color: #faebd7;
+   color: #676F54;
 }
 
 .not{
@@ -69,10 +69,42 @@
 .not input{
     border-radius: 20px;
     background-color: transparent;
-   border: 1px solid #faebd7;
+   border: 1px solid #676F54;
+   padding: 5px 15px;
+   width: 300px;
+   color: #676F54;
+}
+
+.not input:hover{
+    cursor: text;
+}
+
+input:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+    background-color: #676F54;
+    color: #fff;
+    
+
+}
+input::placeholder{
+color: #676F54;
+}
+input:focus::placeholder{
+    color: #fff;
 }
 .not button{
     border-radius: 20px;
-    border: 1px solid #faebd7;
+    border: 1px solid #676F54;
     background-color: transparent;
+    color:#676F54;
+    padding: 5px 14px;
+    transition: .3s;
+}
+.not button:hover{
+    background-color: #676F54;
+    color:#fff;
+    transform: scale(1.05);
+    
+    
 }
