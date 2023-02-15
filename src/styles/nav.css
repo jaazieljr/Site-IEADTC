@@ -1,0 +1,47 @@
+header{
+  background-image: linear-gradient(#002542, #003864);
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  padding: 20px 100px;
+}
+header ul{
+  font-family: 'Open Sans', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+header ul a{
+  color: #fafafa;
+  transition: .4s;
+}
+header ul a:hover{
+  color: #fafafa;
+  border-bottom: 1px solid  #fafafa;
+}
+#logo{
+  transition: .3s;
+}
+#logo:hover{
+  transform: scale(1.1);
+}
+#live{
+  margin-left: 2px;
+  border: red;
+  border-radius: 5px;
+  background-color: red;
+  width: 8px;
+  height: 8px;
+  -webkit-animation: live 2s linear infinite;
+   -moz-animation: live 2s linear infinite;
+   -ms-animation: live 2s linear infinite;
+   -o-animation: live 2s linear infinite;
+   animation: live 2s linear infinite;
+}
+@keyframes live {
+  0% { opacity: 0; }
+  50% { opacity: .9; }
+  100% { opacity: 0; }
+  
+}

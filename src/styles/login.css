@@ -2,8 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    cursor:default;
-}
+  }
+  
 body{
     background-image:url("/src/assets/adelphos/adelphos-fundo.svg");
     background-repeat: no-repeat;
