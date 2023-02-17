@@ -11,14 +11,19 @@ header ul{
   align-items: center;
   justify-content: center;
   gap: 50px;
+  letter-spacing: 1px;
+  
 }
 header ul a{
   color: #fafafa;
-  transition: .4s;
+  border-bottom: 2px solid transparent;
+  transition: .2s;
+  padding-bottom: 5px;
 }
 header ul a:hover{
   color: #fafafa;
-  border-bottom: 1px solid  #fafafa;
+  border-bottom: 2px solid #fafafa;
+  
 }
 #logo{
   transition: .3s;
@@ -39,6 +44,7 @@ header ul a:hover{
    -o-animation: live 2s linear infinite;
    animation: live 2s linear infinite;
 }
+
 @keyframes live {
   0% { opacity: 0; }
   50% { opacity: .9; }

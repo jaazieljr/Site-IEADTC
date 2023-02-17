@@ -1,0 +1,93 @@
+.section-one{
+  padding: 200px 300px;
+  
+}
+.section-one ul{
+ 
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  gap: 40px;
+}
+
+.section-one ul li h1{
+ 
+  margin-bottom: 30px;
+  color: #323232;
+  text-align: left;
+  font-weight: 700;
+  font-size: 45px;
+  
+}
+
+.section-one ul li p{
+  text-align: left;
+  color: #4c4c4c;
+  font-weight: 400;
+}
+
+.section-one ul li img{
+  width: 600px;
+}
+.section-one ul li p span{
+  font-weight: 700;
+}
+
+.section-two{
+  border: 1px solid red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 200px 100px;
+}
+
+.section-two #title-section-two{
+  border: 1px solid red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 40px;
+ 
+}
+.section-two #title-section-two h2{
+  border: 1px solid red;
+  margin: 0;
+}
+.section-two #title-section-two button{
+  border: none;
+  border-bottom: 1px solid #323232;
+  width: 600px;
+}
+.section-two #title-section-two p{
+  border: 1px solid red;
+  margin: 0;
+}
+
+.section-two #content-section-two{
+  border: 1px solid red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.section-two #content-section-two img{
+  border: 1px solid red;
+}
+.section-two #content-section-two #date{
+  border: 1px solid red;
+}
+.section-two #content-section-two #info{
+  border: 1px solid red;
+ 
+}
+.section-two #content-section-two #date-content{
+  border: 1px solid red;
+ 
+}
+.section-two #content-section-two button{
+  border: 1px solid red;
+}
