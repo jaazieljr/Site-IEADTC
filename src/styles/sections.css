@@ -1,5 +1,5 @@
 .section-one{
-  padding: 200px 300px;
+  padding: 200px;
   
 }
 .section-one ul{
@@ -18,7 +18,7 @@
   color: #323232;
   text-align: left;
   font-weight: 700;
-  font-size: 45px;
+  font-size: 40px;
   
 }
 
@@ -64,8 +64,7 @@
   width: 600px;
 }
 .section-two #title-section-two p{
-  
-  margin: 0;
+  margin: auto;
 }
 .section-two #title-section-two #seta{
   display: flex;
