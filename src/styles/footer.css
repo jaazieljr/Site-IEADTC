@@ -1,14 +1,87 @@
-#map {
-  border: #000b14;
-  display: block;
-  position: relative;
+.map iframe {
+  padding: 0;
+  display: flex;
+  width: 100%;
+  height: 350px;
 }
 
-#bg-footer {
-  background-color: #000b14;
-  background-image: linear-gradient(#131313, #000b14);
-  padding: 20px;
+footer {
+  background-color: #fbfbfb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 300px 10px 300px;
+  gap: 20px;
+}
+footer h1 {
+  font-size: 16px;
+}
+footer p{
+  font-size: 14px;
+  
+}
+.logo-footer {
+  width: 100px;
 }
 
+.icon-footer {
+  width: 30px;
+  background-color: #003554;
+  border-radius: 50px;
+  padding: 5px;
+}
+.icon-footer:hover{
+  border: 1px solid transparent;
+}
 
+footer div ul li img {
+  width: 20px;
+}
 
+.footer-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 10px;
+  margin: 0;
+  gap: 30px;
+}
+
+footer div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.infos {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 300px;
+  margin-left: 50px;
+}
+.infos ul {
+  padding: 0;
+}
+.infos ul li {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.infos ul li p {
+  margin: 0;
+  margin-left: 10px;
+}
+.icon-redes {
+  gap: 5px;
+}
+ footer a p {
+  border-bottom: 1px solid transparent;
+  width: fit-content;
+}
+  footer  a p:hover {
+  border-bottom: 1px solid;
+}
