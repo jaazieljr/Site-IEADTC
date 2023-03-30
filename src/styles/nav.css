@@ -5,7 +5,7 @@ header{
   justify-content:space-between;
   padding: 20px 100px;
 }
-header ul{
+#menu{
   font-family: 'Open Sans', sans-serif;
   display: flex;
   align-items: center;
@@ -14,13 +14,13 @@ header ul{
   letter-spacing: 1px;
   
 }
-header ul a{
+#menu a{
   color: #fafafa;
   border-bottom: 2px solid transparent;
   transition: .2s;
   padding-bottom: 5px;
 }
-header ul a:hover{
+#menu a:hover{
   color: #fafafa;
   border-bottom: 2px solid #fafafa;
   
@@ -50,4 +50,68 @@ header ul a:hover{
   50% { opacity: .9; }
   100% { opacity: 0; }
   
+}
+
+
+#btn-mobile{
+  display: none;
+}
+
+@media (max-width: 800px){
+  #btn-mobile{
+    display: block;
+  }
+
+  #menu{
+    display: none;
+    
+    position: absolute;
+    width: 100%;
+    top: 140px;
+    left: 0;
+    background-color: #002542;
+   
+    padding: 20px;
+    z-index: 1000;
+
+  }
+  #nav.active #menu{
+    display: block;
+    
+  }
+  #menu li {
+    padding: 10px;
+  }
+
+ 
+
+  #menu a {
+    border-bottom: 2px solid rgba(240, 240, 240, 0.05);
+  }
+
+  #btn-mobile{
+    color: #fafafa;
+    display: flex;
+    padding: .5rem 1rem;
+    font-size: 1rem;
+    border: none;
+    background: none;
+    gap: .5rem;
+  }
+
+  #hamburger{
+    border-top: 2px solid #fafafa;
+    width: 20px;
+  }
+
+
+  #hamburger::after, #hamburger::before{
+    content:'';
+    display: block;
+    width: 20px;
+    height: 2px;
+    background: #fafafa;
+    margin-top: 4px;
+  }
+
 }
