@@ -310,3 +310,36 @@ font-size: 28px;
    transition: all linear .3s;
 }
 
+@media (max-width: 1100px){
+
+
+
+  .section-four{
+    flex-direction: column;
+    width: 100%;
+  }
+  .section-one{
+    padding: 200px;
+  }
+
+  .section-one ul {
+    flex-direction: column;
+  }
+  .section-one ul li img {
+    width: 300px;
+  }
+
+.section-five{
+  flex-direction: column;
+  padding: 20px;
+}
+
+.section-two .content-section-two {
+flex-direction: column;
+}
+
+.title-section button {
+  width: 100px;
+}
+
+}

@@ -85,3 +85,13 @@ footer div {
   footer  a p:hover {
   border-bottom: 1px solid;
 }
+
+@media (max-width: 1100px){
+
+footer{
+  flex-direction: column;
+  padding: 10px;
+}
+
+
+}
