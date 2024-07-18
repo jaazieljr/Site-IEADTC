@@ -1,34 +1,37 @@
 header{
-  background-image: linear-gradient(#002542, #003864);
+ 
   display: flex;
-  align-items: center;
+  align-items:baseline;
   justify-content:space-between;
   padding: 20px 100px;
+
 }
 #menu{
-  font-family: 'Open Sans', sans-serif;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 50px;
-  letter-spacing: 1px;
+
   
 }
 #menu a{
-  color: #fafafa;
+color:#3c3c3c;
   border-bottom: 2px solid transparent;
   transition: .2s;
   padding-bottom: 5px;
 }
 #menu a:hover{
-  color: #fafafa;
+ 
   border-bottom: 2px solid #fafafa;
   
 }
-#logo{
+
+#logo img{
   transition: .3s;
+ 
+  width: 190px;
 }
-#logo:hover{
+#logo img :hover{
   transform: scale(1.1);
 }
 #live{

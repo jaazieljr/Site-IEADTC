@@ -2,7 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Roboto', Helvetica Neue, sans-serif;
+  font-family: "Inter", sans-serif;
+ 
 }
 
 html {
@@ -10,8 +11,11 @@ html {
 }
 body {
   min-height: 100%;
+  color: #3c3c3c;
   background-color: #fff;
-}
+  
+  font-family: "Roboto", sans-serif;
+} 
 a{
   text-decoration: none;
 
