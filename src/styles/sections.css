@@ -1,5 +1,5 @@
 .section-one {
-  background-color: #003554;
+  background-color: var(--blue-900);
   padding: 200px 300px;
 }
 .section-one ul {
@@ -31,14 +31,6 @@
  color: #d7d2d2;
 }
 
-.section-two {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  padding: 50px 100px 200px 100px;
-}
-
 .title-section {
   margin-top: 50px;
   display: flex;
@@ -59,85 +51,6 @@
 }
 .title-section p {
   margin: auto;
-}
-
-
-.section-two .content-section-two {
-  border: 1px solid transparent;
-  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-  background-color: #fafafa;
-  border-radius: 10px;
-  max-width: 1100px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 40px;
-  padding-right: 30px;
-  margin-bottom: 30px;
-}
-.section-two .content-section-two .img-section {
-  width: 150px;
-  border-radius: 10px 0px 0px 10px;
-}
-
-.section-two .content-section-two .date {
-  color: #323232;
-  text-transform: uppercase;
-}
-.section-two .content-section-two .date h1 {
-  font-weight: 700;
-  font-size: 24px;
-  font-style: bold;
-}
-
-.section-two .content-section-two .info h1 {
-  font-weight: 700;
-  font-size: 24px;
-  margin-bottom: 20px;
-}
-
-.section-two .content-section-two .info div {
-  display: flex;
-  align-items: center;
-  justify-content: left;
-  gap: 5px;
-}
-.section-two .content-section-two .info img {
-  width: 15px;
-  margin-right: 15px;
-}
-
-.section-two .content-section-two .info p {
-  font-size: 10px;
-  letter-spacing: 1px;
-  font-weight: 400;
-  margin-bottom: auto;
-  padding: 5px;
-}
-.section-two .content-section-two .info p span {
-  font-weight: 400;
-  color: #f4f4f4;
-  background-color: #003554;
-  border-radius: 5px;
-  padding: 4px 7px;
-  font-size: 12px;
-}
-.section-two .content-section-two button {
-  border: 1px solid transparent;
-  border-radius: 20px;
-  min-width: 110px;
-  font-size: small;
-  padding: 10px;
-  background-color: #003554;
-  transition: 0.3s§;
-  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-}
-.section-two .content-section-two button:hover {
-  transform: scale(1.03);
-}
-
-.section-two .content-section-two button a {
-  color: #f4f4f4;
 }
 
 .section-three {
@@ -196,11 +109,11 @@
   display: flex;
   flex-flow: column wrap;
   justify-content: space-between;
-  background-color: #f5f5f5;
+  background-color: var(--slate-100);
   min-height:400px ;
   gap: 10px;
   height: 600px;
-  transition: .3s;
+  transition: .2s;
 }
 
 .section-card:hover {
@@ -214,7 +127,7 @@ width:300px;
 .section-card div{
   padding: 0 20px;
   
-  color: #323232;
+  color: var(--blue-700);
   
 }
 

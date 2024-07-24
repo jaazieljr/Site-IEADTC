@@ -1,3 +1,19 @@
+:root{
+  --slate-100:#f1f5f9;
+  --slate-300:#cbd5e1;
+  --slate-500:#64748b;
+  --slate-700:#334155;
+  --slate-900:#0f172a;
+
+
+  --blue-900:#003554;
+
+
+}
+
+
+
+
 * {
   margin: 0;
   padding: 0;
@@ -11,8 +27,8 @@ html {
 }
 body {
   min-height: 100%;
-  color: #3c3c3c;
-  background-color: #fff;
+  color: var(--slate-700);
+  background-color: var(--slate-100);
   
   font-family: "Roboto", sans-serif;
 } 
